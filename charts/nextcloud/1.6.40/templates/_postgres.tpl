@@ -7,7 +7,7 @@ Get Nextloud Postgres Database Name
 
 
 {{- define "postgres.imageName" -}}
-{{- print "postgres:13.1" -}}
+{{- print "postgres:15.4-alpine3.18" -}}
 {{- end -}}
 
 
